@@ -362,6 +362,16 @@ nav a span:hover {
 	nav {
 		margin-top: 5vh;
 	}
+	#pages-wrapper, #about-wrapper, .projects-wrapper {
+		margin-top: 10vh;
+	}
+	#contact-wrapper {
+		margin-top: 5vh;
+	}
+	.pt-wrapper {
+		margin-top: 0vh;
+		margin-bottom: 3vh;
+	}
 }
 
 @media all and (orientation: landscape) {
