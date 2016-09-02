@@ -357,6 +357,18 @@ nav a span:hover {
 
 @media all and (orientation: portrait) {
 	header {
-		height: 8vh;
+		height: 7vh;
+	}
+	nav {
+		margin-top: 5vh;
+	}
+}
+
+@media all and (orientation: landscape) {
+	header {
+		height: 16vh;
+	}
+	nav {
+		margin-top: 12vh;
 	}
 }
