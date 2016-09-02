@@ -6,11 +6,11 @@ $(document).ready(function(){
 	}
 	contactSizer()
 	$(window).resize(contactSizer);
-	$('.method-wrapper').mouseover(function(){
-		$(this).find('.caption').css('display','block');
+	$('.ct-circle').mouseover(function(){
+		$(this).next().css('display','block');
 	});
-	$('.method-wrapper').mouseleave(function(){
-		$(this).find('.caption').css('display','none');
+	$('.ct-circle').mouseleave(function(){
+		$(this).next().css('display','none');
 	});
 
 	$("#resume-wrapper").click(function(){

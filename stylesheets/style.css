@@ -262,10 +262,6 @@ hr {
 	margin-top: 5vh;
 }
 
-.method-wrapper:hover{
-	cursor: pointer;
-}
-
 #email-wrapper {
 	margin-left: 4%;
 }
@@ -282,6 +278,7 @@ hr {
 	-webkit-filter: invert(100%);
   filter: invert(100%);
   border: #0EA6B9 solid 5px;
+  cursor: pointer;
 }
 
 #linkedin {
@@ -303,7 +300,7 @@ hr {
 }
 
 #email {
-	background: url(../images/email.jpeg);
+	background: url(../images/email2.jpg);
 	background-position: center;
 	background-size: 130%;
 }
