@@ -16,15 +16,15 @@ header{
 }
 
 hgroup{
-    line-height: 60px;
     height: 60px;
     padding-left: 4%;
     position: fixed;
     width: 100%;
+    line-height: 20px;
 }
 
 hgroup h1, hgroup h2{
-	display: inline;
+	display: inline-block;
 	font-family: 'Nunito', sans-serif;
 }
 
