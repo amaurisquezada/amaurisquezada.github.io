@@ -22,6 +22,8 @@ hgroup{
     padding-left: 4%;
     position: fixed;
     width: 50%;
+    overflow:hidden;
+    -webkit-overflow-scrolling:touch;
 }
 
 h1, h2{
