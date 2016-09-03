@@ -20,7 +20,7 @@ hgroup{
     line-height: 60px;
     height: 60px;
     padding-left: 4%;
-    position: relative;
+    position: fixed;
 }
 
 h1, h2{
@@ -355,35 +355,6 @@ nav a span:hover {
     	display: none;
     }
 }
-
-/*@media screen and (orientation: portrait) {
-	header {
-		height: 7vh;
-	}
-	nav {
-		margin-top: 5vh;
-	}
-	#pages-wrapper, #about-wrapper, .projects-wrapper {
-		margin-top: 10vh;
-	}
-	#contact-wrapper {
-		margin-top: 5vh;
-	}
-	.pt-wrapper {
-		margin-top: 0vh;
-		margin-bottom: 3vh;
-	}
-}
-
-@media all and (orientation: landscape) {
-	header {
-		height: 16vh;
-	}
-	nav {
-		margin-top: 12vh;
-	}
-}*/
-
 
 @media only screen 
   and (min-device-width: 320px) 
