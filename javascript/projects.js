@@ -1,7 +1,7 @@
 $(document).ready(function(){
 	function projectSizer(){
 		$(".pt-circle").css("height", $(".pt-circle").width())
-		$(".pt-circle").css("border-radius", $(".pt-circle").width()/2)
+		$(".pt-circle").css("border-radius", $(".pt-circle").width())
 		$(".pt-circle").css("border-width", $(".pt-circle").width()/32)
 		$(".pt-text").css("height", $(".pt-circle").width())
 		$("#nsb-text p").css("font-size", $(".pt-text").width()/28)

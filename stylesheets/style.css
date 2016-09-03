@@ -35,11 +35,12 @@ h1{
 
 h2{
 	color: lightgrey;
+	position: relative;
 }
 
 #pages-wrapper{
 	height: 305px;
-	margin-top: 20vh;
+	margin-top: 25vh;
 }
 
 .page{
@@ -104,7 +105,7 @@ h2{
 
 #about-wrapper{
 	height: 65vh;
-	margin-top: 20vh;
+	margin-top: 25vh;
 	width: 90%;
 	margin-left: 3%;
 }
@@ -208,7 +209,7 @@ nav a{
 }
 
 .projects-wrapper{
-	margin-top: 20vh;
+	margin-top: 19vh;
 	width: 95%;
 	margin-left: 2%;
 }
@@ -237,7 +238,7 @@ hr {
 }
 
 #contact-wrapper {
-	margin-top: 20vh;
+	margin-top: 21vh;
 	width: 100%;
 	height: 70vh;
 }
@@ -355,7 +356,7 @@ nav a span:hover {
     }
 }
 
-@media all and (orientation: portrait) {
+/*@media screen and (orientation: portrait) {
 	header {
 		height: 7vh;
 	}
@@ -372,13 +373,13 @@ nav a span:hover {
 		margin-top: 0vh;
 		margin-bottom: 3vh;
 	}
-}
+}*/
 
-@media all and (orientation: landscape) {
+/*@media all and (orientation: landscape) {
 	header {
 		height: 16vh;
 	}
 	nav {
 		margin-top: 12vh;
 	}
-}
+}*/
