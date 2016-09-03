@@ -16,17 +16,14 @@ header{
 }
 
 hgroup{
-	  float: left;
     line-height: 60px;
     height: 60px;
     padding-left: 4%;
     position: fixed;
-    width: 50%;
-    overflow:hidden;
-    -webkit-overflow-scrolling:touch;
+    width: 100%;
 }
 
-h1, h2{
+hgroup h1, hgroup h2{
 	display: inline;
 	font-family: 'Nunito', sans-serif;
 }
@@ -38,6 +35,21 @@ hgroup h1{
 
 hgroup h2{
 	color: lightgrey;
+}
+
+#th1 {
+	position: fixed;
+	font-family: 'Nunito', sans-serif;
+	color: #F15946;
+	margin-top: 2vh;
+	margin-left: 5%;
+}
+
+#th2 {
+	position: fixed;
+	font-family: 'Nunito', sans-serif;
+	color: lightgrey;
+	left: 30%;
 }
 
 #pages-wrapper{
