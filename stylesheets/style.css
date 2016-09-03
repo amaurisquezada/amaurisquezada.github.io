@@ -37,21 +37,6 @@ hgroup h2{
 	color: lightgrey;
 }
 
-#th1 {
-	position: fixed;
-	font-family: 'Nunito', sans-serif;
-	color: #F15946;
-	margin-top: 2vh;
-	margin-left: 5%;
-}
-
-#th2 {
-	position: fixed;
-	font-family: 'Nunito', sans-serif;
-	color: lightgrey;
-	left: 30%;
-}
-
 #pages-wrapper{
 	height: 305px;
 	margin-top: 25vh;
