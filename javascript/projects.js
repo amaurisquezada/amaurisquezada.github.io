@@ -8,6 +8,7 @@ $(document).ready(function(){
 		$("#insta-text p").css("font-size", $(".pt-text").width()/32)
 		$("#jukebox-text p").css("font-size", $(".pt-text").width()/32)
 		$(".p-titles").css("font-size", $(".pt-circle").width()/12)
+		$("hgroup h2").css("margin-left", $(window).width()/10 + $("hgroup h1").width())
 	}
 	projectSizer()
 	$(window).resize(projectSizer);
