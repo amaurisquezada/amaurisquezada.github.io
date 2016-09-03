@@ -3,6 +3,7 @@ $(document).ready(function(){
 		$("#contact-header").css("font-size", $(window).width()/32)
 		$("#lightbox-resume").css("height", $("#lightbox-resume").width()*(11/8.5))
 		$(".caption-text").css("font-size", $(".method-wrapper").width()/15)
+		$("hgroup h2").css("margin-left", $(window).width()/10 + $("hgroup h1").width())
 	}
 	contactSizer()
 	$(window).resize(contactSizer);
