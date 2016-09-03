@@ -28,14 +28,13 @@ h1, h2{
 	font-family: 'Nunito', sans-serif;
 }
 
-h1{
+hgroup h1{
 	color: #F15946;
 	margin-right: 40px;
 }
 
-h2{
+hgroup h2{
 	color: lightgrey;
-	position: relative;
 }
 
 #pages-wrapper{
