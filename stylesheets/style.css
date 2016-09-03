@@ -26,6 +26,7 @@ hgroup{
 hgroup h1, hgroup h2{
 	display: inline-block;
 	font-family: 'Nunito', sans-serif;
+	position: fixed;
 }
 
 hgroup h1{
@@ -35,6 +36,7 @@ hgroup h1{
 
 hgroup h2{
 	color: lightgrey;
+	margin-left: 40%;
 }
 
 #pages-wrapper{
