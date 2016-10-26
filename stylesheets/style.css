@@ -87,7 +87,7 @@ hgroup h2{
 
 #projects{
 	background: url(../images/video-chat.jpg);
-	background-size: 100%;
+	background-size: 100% 100%;
 	background-position: center;	
 }
 
@@ -351,6 +351,40 @@ nav a span:hover {
 	color: #F15946;
 }
 
+.nsb-vid {
+  margin-top: 12vh;
+  width: 55%;
+  margin-left: 35%;
+}
+
+#nsb-links {
+  color: black;
+  top: 12vh;
+  position: absolute;
+  font-size: 2vw;
+  width: 30%;
+  font-family: 'Nunito', sans-serif;
+  text-shadow:
+       1px 1px 0 lightgrey,
+     -1px -1px 0 lightgrey,  
+      1px -1px 0 lightgrey,
+      -1px 1px 0 lightgrey,
+       1px 1px 0 lightgrey;
+}
+
+#nsb-links a {
+  color: black;
+}
+
+#nsb-links hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 5px solid #F15946;
+  padding: 0;
+  margin-right: 5%;
+}
+
 @media screen and (max-width: 660px) {
     hgroup h2 {
     	display: none;
@@ -368,6 +402,9 @@ nav a span:hover {
 	nav {
 		margin-top: 12vh;
 	}
+  #nsb-links {
+    top: 16vh;
+  }
 }
 
 @media only screen 
@@ -381,6 +418,19 @@ nav a span:hover {
 	nav {
 		margin-top: 5vh;
 	}
+  #nsb-links {
+    font-size: 40px;
+    position: static;
+    width: 100%;
+  }
+  #nsb-links hr {
+    margin-right: 20%;
+  }
+  .nsb-vid {
+    margin-left: 0;
+    margin-top: 7vh;
+    width: 100%;
+  }
 	#pages-wrapper, #about-wrapper, .projects-wrapper {
 		margin-top: 10vh;
 	}
