@@ -188,8 +188,8 @@ nav a{
 	background-size: 100%;
 }
 
-#jukebox {
-	background: url(../images/jb.jpg);
+#battleship {
+	background: url(../images/bship.jpg);
 	background-size: 100%;
 	background-position: center;
 }
@@ -225,7 +225,7 @@ hr {
 	display: none;
 }
 
-#coming-soon, #instawho-title, #jukebox-title{
+#coming-soon, #instawho-title, #battleship-title{
 	color: #F1F5F8;
 	margin: 40% 10%;
 	font-family: 'Nunito', sans-serif;
@@ -441,4 +441,8 @@ nav a span:hover {
 		margin-top: 0vh;
 		margin-bottom: 3vh;
 	}
+}
+
+.itls {
+  font-style: italic;
 }
